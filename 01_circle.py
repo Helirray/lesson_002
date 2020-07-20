@@ -30,7 +30,7 @@ point_2 = (30, 30)
 # Если точка point_2 лежит внутри круга (radius = 42), то выведите на кgit rm -r --cached .ideaонсоль True,git rm -r --cached .idea
 # Или False, если точка лежит вовне круга.
 c1 = (point_2[0]**2 + point_2[1]**2)**.5
-print(c<radius, c1<radius)
+print(c<radius, c1<radius, sep='\n')
 
 # Пример вывода на консоль:
 #
