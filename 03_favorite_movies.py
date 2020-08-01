@@ -15,7 +15,7 @@ my_favorite_movies = 'Терминатор, Пятый элемент, Ават�
 # Запятая не должна выводиться.
 
 first_movie = my_favorite_movies[0:10]
-last_movie = my_favorite_movies[-15:-1] + my_favorite_movies[-1]
+last_movie = my_favorite_movies[-15::]
 second_movie = my_favorite_movies[12:25]
 second_from_last_movie = my_favorite_movies[-22:-17]
 print(first_movie, last_movie, second_movie, second_from_last_movie)
